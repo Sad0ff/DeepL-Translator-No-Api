@@ -2,7 +2,6 @@ import time
 from selenium import webdriver 
 import chromedriver_binary
 from webdriver_manager.chrome import ChromeDriverManager
-from selenium.webdriver.common.keys import Keys
 
 text=input("Type in a text for translation: ")
 lang_1=input("Set first language: ")
